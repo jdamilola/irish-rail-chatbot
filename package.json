@@ -22,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -44,6 +44,8 @@
     ]
   },
   "devDependencies": {
-    "@types/xml2js": "^0.4.11"
+    "@types/xml2js": "^0.4.11",
+    "jest": "^27.5.1",
+    "@testing-library/react": "^13.2.0"
   }
 }
